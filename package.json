@@ -1,11 +1,17 @@
 {
-  "name": "electron",
+  "name": "vpragrospares",
   "version": "1.0.0",
-  "description": "Application",
+  "description": "Farm ease",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.1.0",
+    "electron-builder": "^24.6.3"
+  }
 }

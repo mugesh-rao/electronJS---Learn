@@ -11,7 +11,8 @@ function createWindow() {
   });
 
   // Load the HTML file into the window
-  win.loadFile('index.html');
+  // win.loadFile('index.html');
+  win.loadURL('vpragrospares.in');
 }
 
 // Event: App is ready
